@@ -1,3 +1,8 @@
 body {
   margin: 0;
 }
+
+#root {
+  --background-color: #000000;
+  --highlight-text-color: #f6d82c;
+}
