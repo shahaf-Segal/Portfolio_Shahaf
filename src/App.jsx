@@ -1,14 +1,13 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
+import About from "./components/Sections/About/About.jsx";
+import NavBar from "./components/Sections/NavBar/NavBar.jsx";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<div></div>} />
-        <Route path="/projects" element={<div></div>} />
-        <Route path="/about" element={<div></div>} />
-      </Routes>
+      <NavBar />
+      <About />
     </BrowserRouter>
   );
 }
