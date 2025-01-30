@@ -30,9 +30,9 @@ const Button: React.FC<ButtonProps> = ({
       style={{ width: fullWidth ? "100%" : "fit-content" }}
       onClick={onClick}
     >
-      {icon && iconPosition === "right" && icon}
-      {text}
       {icon && iconPosition === "left" && icon}
+      {text}
+      {icon && iconPosition === "right" && icon}
     </button>
   );
 };
