@@ -1,0 +1,5 @@
+.section_about {
+  height: 80vh;
+  width: 100vw;
+  background-color: var(--background-color);
+}
