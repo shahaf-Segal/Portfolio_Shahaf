@@ -1,8 +1,17 @@
 body {
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 #root {
   --background-color: #000000;
+  --secondary-background-color: #2a2a2a;
+  --highlight-background-color: #555252;
   --highlight-text-color: #f6d82c;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
