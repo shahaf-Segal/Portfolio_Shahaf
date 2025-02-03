@@ -1,0 +1,11 @@
+.themeButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.themeButton svg {
+  font-size: 1.5rem;
+  color: var(--highlight-text-color);
+}
