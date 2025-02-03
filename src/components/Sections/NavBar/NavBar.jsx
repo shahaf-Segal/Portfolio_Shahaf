@@ -1,3 +1,4 @@
+import ThemeButton from "@atoms/ThemeButton/ThemeButton";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HashLink as Link } from "react-router-hash-link";
@@ -11,11 +12,12 @@ const NavBar = () => {
         {/* <img src="logo.png" alt="Logo" /> */}
       </div>
       <div className={Styles.NavLinks}>
-        <Link to="#home">Home</Link>
+        <Link to="#App">Home</Link>
         <Link to="#about">About</Link>
         <Link to="#projects">Projects</Link>
       </div>
       <div className={Styles.SocialsContainer}>
+        <ThemeButton />
         {/* Add your social links here */}
         <a href="https://github.com" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />
