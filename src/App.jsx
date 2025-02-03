@@ -5,8 +5,13 @@ import Home from "./components/Sections/Home/Home.jsx";
 import NavBar from "./components/Sections/NavBar/NavBar.jsx";
 
 function App() {
+  const [IsDark, setIsDark] = useState(true);
+  const toggleDark = () => {
+    setIsDark(!IsDark);
+  };
+
   return (
-    <main className="App">
+    <main id="App">
       <BrowserRouter>
         <NavBar />
         <Home />

@@ -4,3 +4,19 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+#App[data-theme="dark"] {
+  --background-color: #000000;
+  --secondary-background-color: #2a2a2a;
+  --highlight-background-color: #555252;
+  --hover-background-color: #fdcb4e;
+  --highlight-text-color: #f6d82c;
+}
+
+#App[data-theme="light"] {
+  --background-color: #ffffff;
+  --secondary-background-color: #f6f6f6;
+  --highlight-background-color: #f6d82c;
+  --hover-background-color: #fdcb4e;
+  --highlight-text-color: #000000;
+}
