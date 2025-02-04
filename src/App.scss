@@ -25,6 +25,7 @@ a:visited {
   --main-text-color: #e9e4f6;
   --secondary-text-color: #a6a6a6;
   --tertiary-text-color: #787878;
+  color-scheme: dark;
 }
 
 #App[data-theme="light"] {
@@ -37,4 +38,5 @@ a:visited {
   --main-text-color: #7a1f3d; /* Deep plum */
   --secondary-text-color: #7a1f3d; /* Rich burgundy */
   --tertiary-text-color: #bf2642;
+  color-scheme: light;
 }
