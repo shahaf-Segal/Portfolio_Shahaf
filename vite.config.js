@@ -7,6 +7,7 @@ export default defineConfig({
     alias: {
       "@atoms": "/src/components/Atoms",
       "@contexts": "/src/Contexts",
+      "@molecules": "/src/components/Molecules",
     },
   },
   plugins: [react()],
