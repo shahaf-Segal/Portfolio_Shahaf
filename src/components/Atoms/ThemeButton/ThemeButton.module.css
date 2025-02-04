@@ -9,3 +9,7 @@
   font-size: 1.5rem;
   color: var(--highlight-text-color);
 }
+
+.themeButton:hover svg {
+  color: var(--background-color);
+}
