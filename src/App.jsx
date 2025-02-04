@@ -1,10 +1,10 @@
+import { ThemeContext } from "@contexts/ThemeProvider";
 import { useContext } from "react";
 import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
 import About from "./components/Sections/About/About.jsx";
 import Home from "./components/Sections/Home/Home.jsx";
 import NavBar from "./components/Sections/NavBar/NavBar.jsx";
-import { ThemeContext } from "./Context/ThemeProvider.jsx";
 
 function App() {
   const { IsDark } = useContext(ThemeContext);

@@ -6,7 +6,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@atoms": "/src/components/Atoms",
-      "@contexts": "/src/Context",
+      "@contexts": "/src/Contexts",
     },
   },
   plugins: [react()],
