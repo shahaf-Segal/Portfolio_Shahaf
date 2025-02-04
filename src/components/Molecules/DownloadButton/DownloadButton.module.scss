@@ -1,0 +1,16 @@
+.download_button {
+  margin-bottom: 20px;
+  text-align: center;
+
+  a {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #3e8e41;
+    }
+  }
+}
