@@ -1,0 +1,15 @@
+.skillSection {
+  margin-bottom: 40px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.skillSection h1 {
+  border-radius: 25px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: var(--secondary-background-color);
+  span {
+    color: var(--highlight-text-color);
+  }
+}
