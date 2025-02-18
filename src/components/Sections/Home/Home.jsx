@@ -1,5 +1,3 @@
-// src/components/Sections/Home/Home.jsx
-
 import Styles from "./Home.module.scss";
 
 import Hero from "./Hero";
