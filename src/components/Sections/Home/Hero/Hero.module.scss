@@ -42,14 +42,17 @@
     cursor: pointer;
     margin-bottom: 20px;
     text-align: center; /* Add this line */
+    user-select: none;
   }
 
   .button:hover {
-    background-color: var(--highlight-background-color-dark);
+    background-color: var(--hover-background-color);
+    color: var(--tertiary-text-color);
   }
 
   .button:active {
-    background-color: var(--highlight-background-color-darker);
+    background-color: var(--highlight-text-color);
+    color: var(--tertiary-text-color);
   }
 
   .socials {
