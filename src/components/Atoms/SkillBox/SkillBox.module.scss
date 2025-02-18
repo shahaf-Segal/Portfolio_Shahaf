@@ -15,15 +15,16 @@
 }
 
 .icon {
-  font-size: 24px;
+  font-size: 30px;
   margin-right: 10px;
   color: var(--highlight-text-color);
 }
 
 .skillName {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   color: var(--main-text-color);
+  user-select: none;
 }
 
 .skillBox:hover .icon {
