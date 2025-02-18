@@ -5,6 +5,7 @@ import "./App.scss";
 import About from "./components/Sections/About/About.jsx";
 import Home from "./components/Sections/Home/Home.jsx";
 import NavBar from "./components/Sections/NavBar/NavBar.jsx";
+import Footnote from "./components/Sections/footnote/Footnote.jsx";
 
 function App() {
   const { IsDark } = useContext(ThemeContext);
@@ -15,6 +16,7 @@ function App() {
         <NavBar />
         <Home />
         <About />
+        <Footnote />
       </BrowserRouter>
     </main>
   );
