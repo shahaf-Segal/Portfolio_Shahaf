@@ -1,0 +1,16 @@
+.selfIntroduction {
+  margin-bottom: 40px;
+  color: var(--main-text-color);
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .highlight_text {
+    color: var(--highlight-text-color);
+  }
+}
