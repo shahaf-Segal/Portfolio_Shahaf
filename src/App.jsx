@@ -13,6 +13,7 @@ function App() {
   return (
     <main id="App" data-theme={IsDark ? "dark" : "light"}>
       <BrowserRouter>
+        <div id="top"></div>
         <NavBar />
         <Home />
         <About />
