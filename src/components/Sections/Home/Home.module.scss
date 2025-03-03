@@ -6,20 +6,24 @@
   display: flex;
   flex-direction: column;
   background-color: var(--secondary-background-color);
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   .top_section {
     z-index: 100;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     .profile_picture {
-      width: 250px;
+      width: 300px;
       max-width: 50%;
       max-height: 80%;
       border-radius: 50%;
       margin-right: 20px;
+
+      @media (max-width: 600px) {
+        width: 250px;
+      }
     }
   }
 }
