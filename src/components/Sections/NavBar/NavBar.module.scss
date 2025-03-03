@@ -17,12 +17,13 @@
   align-items: center;
   gap: 1rem;
   width: 60%;
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .NavLinks {
   width: 70%;
-  max-width: 350px;
+  max-width: 400px;
+  gap: 5px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,11 +31,15 @@
 
 .NavLinks a {
   color: var(--highlight-text-color);
+  background-color: var(--secondary-background-color);
+  padding: 3px;
+  border-radius: 5px;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .NavLinks a:hover {
+  background-color: var(--highlight-text-color);
   color: var(--background-color);
 }
 
