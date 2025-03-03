@@ -2,11 +2,11 @@ import { ThemeContext } from "@contexts/ThemeProvider";
 import { useContext } from "react";
 import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
-import About from "./components/Sections/About/About.jsx";
 import Footnote from "./components/Sections/footnote/Footnote.jsx";
 import Home from "./components/Sections/Home/Home.jsx";
 import NavBar from "./components/Sections/NavBar/NavBar.jsx";
 import Projects from "./components/Sections/Projects/Projects.jsx";
+import SkillSection from "./components/Sections/Skills/SkillSection.jsx";
 
 function App() {
   const { IsDark } = useContext(ThemeContext);
@@ -17,7 +17,7 @@ function App() {
         <div id="top"></div>
         <NavBar />
         <Home />
-        <About />
+        <SkillSection />
         <Projects />
         <Footnote />
       </BrowserRouter>
