@@ -3,18 +3,23 @@
 .section_home {
   height: 90vh;
   max-width: 100vw;
-  background-color: var(--secondary-background-color);
-  z-index: 100;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  background-color: var(--secondary-background-color);
+  justify-content: space-around;
 
-  .profile_picture {
-    width: 250px;
-    max-width: 50%;
-    max-height: 80%;
-    border-radius: 50%;
-    margin-right: 20px;
+  .top_section {
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .profile_picture {
+      width: 250px;
+      max-width: 50%;
+      max-height: 80%;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
   }
 }
