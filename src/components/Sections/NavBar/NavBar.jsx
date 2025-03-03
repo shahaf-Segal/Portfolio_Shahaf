@@ -37,6 +37,7 @@ const NavBar = () => {
           <Link to="#top">About</Link>
           <Link to="#skills">Skills</Link>
           <Link to="#projects">Projects</Link>
+          <Link to="#background">Background</Link>
           <Link to="#contact">Contact</Link>
         </div>
       </div>
