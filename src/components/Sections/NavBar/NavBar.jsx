@@ -34,11 +34,11 @@ const NavBar = () => {
           </a>
         </div>
         <div className={Styles.NavLinks}>
-          <Link to="#top">About</Link>
-          <Link to="#skills">Skills</Link>
+          <Link to="/#top">About</Link>
+          <Link to="/#skills">Skills</Link>
           <Link to="#projects">Projects</Link>
-          <Link to="#background">Background</Link>
-          <Link to="#contact">Contact</Link>
+          <Link to="/#background">Background</Link>
+          <Link to="/#contact">Contact</Link>
         </div>
       </div>
     </div>
