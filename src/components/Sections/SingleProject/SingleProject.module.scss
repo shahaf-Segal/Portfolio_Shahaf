@@ -1,0 +1,59 @@
+// src/components/Sections/SingleProject/SingleProject.module.scss
+
+.singleProject {
+  padding: 20px;
+  background-color: var(--secondary-background-color);
+  color: var(--main-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .featuresAndTechnologies {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .features,
+  .technologies {
+    max-width: 50%;
+  }
+
+  .challenges {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  .button {
+    color: var(--highlight-text-color);
+    background-color: var(--highlight-background-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      background-color: var(--highlight-text-color);
+      color: var(--background-color);
+    }
+  }
+}
